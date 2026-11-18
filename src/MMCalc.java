@@ -16,8 +16,8 @@ public class MMCalc {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 //Parallel arrays containing my custom periodic table data (molar mass values taken from the periodic table my chemistry teacher gave me)
-		String[] elements = { "Ca", "O", "Mo", "Mg", "Si", "Al", "S", "Cr", "Ar", "Fe", "C", "H", "Ni", "N", "F", "Be", "B", "Li", "Na", "K", "Zn", "Cu", "Ne", "He", "P", "Sc", "Ti", "V", "Mn", "Co", "Ga", "Cl", "Br"};
-		double[] masses = { 40.08, 16.00, 95.96, 24.31, 28.09, 26.98, 32.07, 52.00, 39.95, 55.85, 12.01, 1.01, 58.69, 14.01, 19.00, 9.01, 10.81, 6.94, 22.99, 39.10, 65.38, 63.55, 20.18, 4.00, 30.97, 44.96, 47.87, 50.94, 54.94, 58.93, 69.72, 35.45, 79.90};
+		String[] elements = { "Ca", "O", "Mo", "Mg", "Si", "Al", "S", "Cr", "Ar", "Fe", "C", "H", "Ni"};
+		double[] masses = { 40.08, 16.00, 95.96, 24.31, 28.09, 26.98, 32.07, 52.00, 39.95, 55.85, 12.01, 1.01, 58.69};
 //Friendly greeting
 		System.out.println("Welcome to the Molar Mass Calculator/Lookup Tool! And don't worry, I don't bite!:)");
 //Call the method to display the table
