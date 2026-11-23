@@ -26,9 +26,9 @@ public class MMCalc {
 		boolean keepGoing = true;
 		boolean found = true;
 		while (keepGoing) {
-			System.out.println("Enter an element symbol(or type 'exit' to quit): ");
+			System.out.println("Enter an element symbol(or type 'roblox' to quit): ");
 			String choice = in.nextLine();
-			if (choice.equalsIgnoreCase("exit")) {
+			if (choice.equalsIgnoreCase("roblox")) {
 				keepGoing = false;
 			} else {
 				found = false;
